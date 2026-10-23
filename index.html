@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="code.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Tic Tac Toe</h1>
+    <p id="status" class="status" aria-live="polite">Player X's turn</p>
+    <section class="board" aria-label="Tic Tac Toe board">
+      <button class="cell" data-index="0" aria-label="Top left"></button>
+      <button class="cell" data-index="1" aria-label="Top middle"></button>
+      <button class="cell" data-index="2" aria-label="Top right"></button>
+      <button class="cell" data-index="3" aria-label="Middle left"></button>
+      <button class="cell" data-index="4" aria-label="Center"></button>
+      <button class="cell" data-index="5" aria-label="Middle right"></button>
+      <button class="cell" data-index="6" aria-label="Bottom left"></button>
+      <button class="cell" data-index="7" aria-label="Bottom middle"></button>
+      <button class="cell" data-index="8" aria-label="Bottom right"></button>
+    </section>
+    <button id="reset" class="reset">Play Again</button>
+    <p class="hint">Two players · X goes first</p>
+  </main>
+</body>
+</html>
